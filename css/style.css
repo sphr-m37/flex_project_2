@@ -319,14 +319,23 @@ main {
   border-radius: 10px;
 }
 
-.samples .sample-inner .single-sample h4 {
+.samples .sample-inner .single-sample h4 a {
   color: black;
   font-size: 22px;
   font-weight: normal;
 }
 
-.samples .sample-inner .single-sample h4:hover {
+.samples .sample-inner .single-sample h4:hover>a {
   color: coral;
+}
+
+.samples .sample-inner .single-sample h4 a::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
 }
 
 .slider {
