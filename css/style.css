@@ -323,10 +323,9 @@ main {
   color: black;
   font-size: 22px;
   font-weight: normal;
-  transition: 0.5s;
 }
 
-.samples .sample-inner .single-sample h4 a:hover {
+.samples .sample-inner .single-sample h4:hover a {
   color: coral;
 }
 
